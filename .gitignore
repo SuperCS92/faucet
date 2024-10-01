@@ -1,0 +1,24 @@
+# Exclude environment variables file
+.env
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+
+# Exclude virtual environments
+venv/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+
+
+# Exclude Docker-related files (if applicable)
+*.log
+docker-compose.override.yml
+
+# Exclude OS-specific files
+.DS_Store
